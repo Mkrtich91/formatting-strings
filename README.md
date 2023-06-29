@@ -28,8 +28,8 @@ Open the [FormattingStrings.cs](FormattingStrings/IntegerToString.cs) file, and 
 | LiteralToString8  | fed          | Hexadecimal  | 00000FED       | Hexadecimal | 8                   |
 | LiteralToString9  | A            | Hexadecimal  | 0010           | Decimal     | 4                   |
 | LiteralToString10 | fed          | Hexadecimal  | 00004077       | Decimal     | 8                   |
-| LiteralToString11 | 1394         | Decimal      | ¤1,394.00      | Currency    |                     |
-| LiteralToString12 | 28549        | Decimal      | ¤28,549.000000 | Currency    | 6                   |
+| LiteralToString11 | 1394         | Decimal      | ï¿½1,394.00      | Currency    |                     |
+| LiteralToString12 | 28549        | Decimal      | ï¿½28,549.000000 | Currency    | 6                   |
 
 The most simplest way to convert a number to a string is to call the `ToString` method on a number object. Each object in .NET has an [object.ToString](https://docs.microsoft.com/en-us/dotnet/api/system.object.tostring) method that returns a string that represents the object.
 

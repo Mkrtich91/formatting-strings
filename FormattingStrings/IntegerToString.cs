@@ -1,4 +1,4 @@
-﻿using System.Globalization;
+using System.Globalization;
 
 [assembly: CLSCompliant(true)]
 
@@ -8,74 +8,62 @@ namespace FormattingStrings
     {
         public static string LiteralToString1()
         {
-            // TODO #1-1. Analyze the method unit tests and implement the method.
-            throw new NotImplementedException();
+            return 1000.ToString(CultureInfo.InvariantCulture);
         }
 
         public static string LiteralToString2()
         {
-            // TODO #1-2. Analyze the method unit tests and implement the method.
-            throw new NotImplementedException();
+            return 1234.ToString(CultureInfo.InvariantCulture);
         }
 
         public static string LiteralToString3()
         {
-            // TODO #1-3. Analyze the method unit tests and implement the method.
-            throw new NotImplementedException();
+            return 100_000_000.ToString("G", CultureInfo.InvariantCulture);
         }
 
         public static string LiteralToString4()
         {
-            // TODO #1-4. Analyze the method unit tests and implement the method.
-            throw new NotImplementedException();
+            return (-123456789).ToString("G", CultureInfo.InvariantCulture);
         }
 
         public static string LiteralToString5()
         {
-            // TODO #1-5. Analyze the method unit tests and implement the method.
-            throw new NotImplementedException();
+            return 0xABCDEFAB.ToString("X", CultureInfo.InvariantCulture);
         }
 
         public static string LiteralToString6()
         {
-            // TODO #1-6. Analyze the method unit tests and implement the method.
-            throw new NotImplementedException();
+            return 0xafbaceda.ToString("x", CultureInfo.InvariantCulture);
         }
 
         public static string LiteralToString7()
         {
-            // TODO #1-7. Analyze the method unit tests and implement the method.
-            throw new NotImplementedException();
+            return 0xA.ToString("x4", CultureInfo.InvariantCulture);
         }
 
         public static string LiteralToString8()
         {
-            // TODO #1-8. Analyze the method unit tests and implement the method.
-            throw new NotImplementedException();
+            return 0xfed.ToString("X8", CultureInfo.InvariantCulture);
         }
 
         public static string LiteralToString9()
         {
-            // TODO #1-9. Analyze the method unit tests and implement the method.
-            throw new NotImplementedException();
+            return 0xA.ToString("D4", CultureInfo.InvariantCulture);
         }
 
         public static string LiteralToString10()
         {
-            // TODO #1-10. Analyze the method unit tests and implement the method.
-            throw new NotImplementedException();
+            return 0xfed.ToString("D8", CultureInfo.InvariantCulture);
         }
 
         public static string LiteralToString11()
         {
-            // TODO #1-11. Analyze the method unit tests and implement the method.
-            throw new NotImplementedException();
+            return 1394.ToString("C", CultureInfo.InvariantCulture);
         }
 
         public static string LiteralToString12()
         {
-            // TODO #1-12. Analyze the method unit tests and implement the method.
-            throw new NotImplementedException();
+            return 28549.ToString("C6", CultureInfo.InvariantCulture);
         }
     }
 }
